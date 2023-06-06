@@ -1,0 +1,171 @@
+
+
+ body {
+    background-image: url("https://avatars.mds.yandex.net/i?id=03fe1d95188d964b60e8f43ca7637671824c9bc2-8263615-images-thumbs&n=13");
+    }
+    
+    #sun {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100px;
+        height: 100px;
+        background-color: #f39c12;
+        border-radius: 50%;
+        animation: rotate 5s linear infinite;
+      }
+      
+      .planet {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+      
+      #mercury {
+        top: 15%;
+        left: 47.5%;
+        background-color: #bdc3c7;
+        animation-name: orbit-mercury;
+        animation-delay: 0.5s;
+      }
+      
+      #venus {
+        top: 23%;
+        left: 43%;
+        background-color: #e67e22;
+        animation-name: orbit-venus;
+        animation-delay: 1s;
+      }
+      
+      #earth {
+        top: 31%;
+        left: 38.5%;
+        background-color: #3498db;
+        animation-name: orbit-earth;
+        animation-delay: 1.5s;
+      }
+      
+      #mars {
+        top: 39%;
+        left: 34%;
+        background-color: #e74c3c;
+        animation-name: orbit-mars;
+        animation-delay: 2s;
+      }
+      
+      #jupiter {
+        top: 47%;
+        left: 29.5%;
+        background-color: #f1c40f;
+        animation-name: orbit-jupiter;
+        animation-delay: 2.5s;
+      }
+      
+      #saturn {
+        top: 55%;
+        left: 25%;
+        background-color: #f39c12;
+        animation-name: orbit-saturn;
+        animation-delay: 3s;
+      }
+      
+      #uranus {
+        top: 63%;
+        left: 20.5%;
+        background-color: #9b59b6;
+        animation-name: orbit-uranus;
+        animation-delay: 3.5s;
+      }
+      
+      #neptune {
+        top: 71%;
+        left: 16%;
+        background-color: #3498db;
+        animation-name: orbit-neptune;
+        animation-delay: 4s;
+      }
+      
+      @keyframes rotate {
+        from {
+          transform: translate(-50%, -50%) rotate(0);
+        }
+        to {
+          transform: translate(-50%, -50%) rotate(1turn);
+        }
+      }
+      
+      @keyframes orbit-mercury {
+        from {
+          transform: translate(-50%, -50%) rotate(0) translateX(100px) rotate(0);
+        }
+        to {
+          transform: translate(-50%, -50%) rotate(1turn) translateX(100px) rotate(-1turn);
+        }
+      }
+      
+      @keyframes orbit-venus {
+        from {
+          transform: translate(-50%, -50%) rotate(0) translateX(160px) rotate(0);
+        }
+        to {
+          transform: translate(-50%, -50%) rotate(1turn) translateX(160px) rotate(-1turn);
+        }
+      }
+      
+      @keyframes orbit-earth {
+        from {
+          transform: translate(-50%, -50%) rotate(0) translateX(220px) rotate(0);
+        }
+        to {
+          transform: translate(-50%, -50%) rotate(1turn) translateX(220px) rotate(-1turn);
+        }
+      }
+      
+      @keyframes orbit-mars {
+        from {
+          transform: translate(-50%, -50%) rotate(0) translateX(280px) rotate(0);
+        }
+        to {
+          transform: translate(-50%, -50%) rotate(1turn) translateX(280px) rotate(-1turn);
+        }
+      }
+      
+      @keyframes orbit-jupiter {
+        from {
+          transform: translate(-50%, -50%) rotate(0) translateX(340px) rotate(0);
+        }
+        to {
+          transform: translate(-50%, -50%) rotate(1turn) translateX(340px) rotate(-1turn);
+        }
+      }
+      
+      @keyframes orbit-saturn {
+        from {
+          transform: translate(-50%, -50%) rotate(0) translateX(400px) rotate(0);
+        }
+        to {
+          transform: translate(-50%, -50%) rotate(1turn) translateX(400px) rotate(-1turn);
+        }
+      }
+      
+      @keyframes orbit-uranus {
+        from {
+          transform: translate(-50%, -50%) rotate(0) translateX(460px) rotate(0);
+        }
+        to {
+          transform: translate(-50%, -50%) rotate(1turn) translateX(460px) rotate(-1turn);
+        }
+      }
+      
+      @keyframes orbit-neptune {
+        from {
+          transform: translate(-50%, -50%) rotate(0) translateX(520px) rotate(0);
+        }
+        to {
+          transform: translate(-50%, -50%) rotate(1turn) translateX(520px) rotate(-1turn);
+        }
+      }

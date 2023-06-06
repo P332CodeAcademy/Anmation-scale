@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    padding: 30px 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 10px;
+}
+
+.border-1 {
+    border: 1px solid black;
+}
+
+.section-item {
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.hover-scale{
+    transition: transform 0.3s, background-color 0.3s;
+}
+.hover-scale:hover{
+    transform: scale(1.2);
+}
+
+.red-scale:hover{
+     background-color: rgb(139, 42, 42);
+   
+}
+.blue-scale:hover{
+    background-color: rgb(6, 80, 119);
+}
+
+.yellow-scale:hover{
+
+    background-color: rgb(176, 176, 43);
+}
+
+.green-scale:hover{
+    background-color: green;
+}
+
+
+
